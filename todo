@@ -1,0 +1,14 @@
+To Do:
+
+The executable .bat file must perform the following:
+ - copy data from: C:\users\$user
+ - must be able to determine value of $user from each host computer, maybe using whoami 
+ - pseudocode:  
+    whoami.toString > $user
+    copy from C:\user\$user\Documents, Pictures, Desktop, 
+    bookmarks can be automatically exported and generated into an HTML file with:
+    https://community.spiceworks.com/topic/2123065-export-chrome-bookmarks-as-html
+    
+    
+ - after it is copied to flash drive, it must have another .exe to click to copy TO the new computer from the flash drive
+ - requires two .bat executables, one to copyFrom (from old PC to USB drive) and one to copyTo (from USB to new PC)
